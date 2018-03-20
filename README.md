@@ -42,6 +42,7 @@ TODO
 
 ## References
 * https://en.wikipedia.org/wiki/Software_testing
+* https://github.com/tiansiyuan/SQA
 * http://www.agilebuddha.com/scrum/agile-testing-is-achieving-quality-in-everything/
 * http://swtester.blogspot.cz/2015/04/agile-testing-automation.html
 
