@@ -5,14 +5,14 @@
 >
 >Unknown
 
-## Why Quality Engineering?
+## Why Quality Engineering (QA)?
 The basic goals are.
 
 *Before* you ship software to wider audience:
  * assess that software meets the (customer) requirements
  * indentify & document/fix bugs or imperfections
 
-## Testing types
+## QA Testing types
 
 ### Why there are so many testing terms and types?
  * functional testing
@@ -31,6 +31,15 @@ The basic goals are.
 
 #### It is extremely important to look at software under test from different angles!
 
+## QA processes
+
+## QA mindset
+ * analytical thinking
+ * critical thinking
+ * troubleshooting expertise
+ * at least basic programming knowledge
+ * ...
+
 ## Practical session (with triangle test client)
 
 TODO
@@ -43,6 +52,7 @@ TODO
 ## References
 * https://en.wikipedia.org/wiki/Software_testing
 * https://github.com/tiansiyuan/SQA
+* https://stackify.com/software-testing-tips/
 * http://www.agilebuddha.com/scrum/agile-testing-is-achieving-quality-in-everything/
 * http://swtester.blogspot.cz/2015/04/agile-testing-automation.html
 
