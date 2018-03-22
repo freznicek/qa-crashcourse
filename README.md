@@ -16,7 +16,7 @@ The basic goals are.
 
 *Before* you ship software to wider audience:
  * assess that software meets the (customer) requirements
- * indentify & document/fix bugs or imperfections
+ * identify & document/fix bugs or imperfections
 
 ## QA Testing types
 
@@ -137,7 +137,7 @@ $ ./triangle 1 1 3
 ```
 This is evidently right, you cannot construct triangle when one side is greater than the other two.
 
-#### Negative scenario, additional argument[s]
+#### Negative scenario, additional argument\[s\]
 
 ```
 $ ./triangle 5 6 7 8
@@ -179,20 +179,8 @@ Program terminated with signal SIGABRT, Aborted.
 #8  0x00000000004011b7 in std::stod (__str="K", __idx=0x0) at /usr/include/c++/4.9/bits/basic_string.h:2889
 #9  0x0000000000400f2f in main (argc=4, argv=0x7ffc6af9b478) at triangle.cpp:49
 (gdb) quit
-$ kill -l
- 1) SIGHUP       2) SIGINT       3) SIGQUIT      4) SIGILL       5) SIGTRAP
+$ kill -l | grep -F " 6)"
  6) SIGABRT      7) SIGBUS       8) SIGFPE       9) SIGKILL     10) SIGUSR1
-11) SIGSEGV     12) SIGUSR2     13) SIGPIPE     14) SIGALRM     15) SIGTERM
-16) SIGSTKFLT   17) SIGCHLD     18) SIGCONT     19) SIGSTOP     20) SIGTSTP
-21) SIGTTIN     22) SIGTTOU     23) SIGURG      24) SIGXCPU     25) SIGXFSZ
-26) SIGVTALRM   27) SIGPROF     28) SIGWINCH    29) SIGIO       30) SIGPWR
-31) SIGSYS      34) SIGRTMIN    35) SIGRTMIN+1  36) SIGRTMIN+2  37) SIGRTMIN+3
-38) SIGRTMIN+4  39) SIGRTMIN+5  40) SIGRTMIN+6  41) SIGRTMIN+7  42) SIGRTMIN+8
-43) SIGRTMIN+9  44) SIGRTMIN+10 45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
-48) SIGRTMIN+14 49) SIGRTMIN+15 50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
-53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9  56) SIGRTMAX-8  57) SIGRTMAX-7
-58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4  61) SIGRTMAX-3  62) SIGRTMAX-2
-63) SIGRTMAX-1  64) SIGRTMAX
 ```
 As documentation claims invalid input should result in exit code of 2, which is not the case. Moreover we can see that application *aborted* due to an c++ exception `std::__throw_invalid_argument` leading to `SIGABRT` with exit code of 134 (128+6).
 The Bug #4 should contain:
