@@ -18,6 +18,7 @@ The basic goals are.
  * functional testing
  * regression testing
  * exploratory testing
+ * `<color>`box testing
  * ...
  
 ### Why the diagrams look so complex?
@@ -42,7 +43,40 @@ The basic goals are.
 
 ## Practical session (with triangle test client)
 
-TODO
+Let's go through very basic QA practical session on `./triangle` client:
+
+### pre-requisite, compile the client
+```
+make rebuild
+```
+
+### documentation
+```
+
+```
+
+### Basic functionality
+```
+
+```
+
+### Basic functionality
+```
+
+```
+
+### Basic functionality
+```
+
+```
+
+### Basic functionality
+```
+
+```
+
+
+
 
 ## Outro
 >If you haven't tried it, assume it's broken.
