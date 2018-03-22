@@ -1,4 +1,10 @@
-# QA crash course
+# QA crash-course
+
+The goals of this course are:
+* basic overview what the Quality Assurance stands for
+* Intro to QA mindset, thinking and reasoning
+* practical session for novices
+* ... all fast track way within 10 minutes of your time
 
 ## Intro
 >If you haven't tried it, assume it's broken.
@@ -367,9 +373,13 @@ The highlight is on:
 >Unknown
 
 ## References
-* https://en.wikipedia.org/wiki/Software_testing
-* https://github.com/tiansiyuan/SQA
-* https://stackify.com/software-testing-tips/
-* http://www.agilebuddha.com/scrum/agile-testing-is-achieving-quality-in-everything/
-* http://swtester.blogspot.cz/2015/04/agile-testing-automation.html
-
+* articles
+  * https://en.wikipedia.org/wiki/Software_testing
+  * https://github.com/tiansiyuan/SQA
+  * https://stackify.com/software-testing-tips/
+  * http://www.agilebuddha.com/scrum/agile-testing-is-achieving-quality-in-everything/
+  * http://swtester.blogspot.cz/2015/04/agile-testing-automation.html
+* books
+  * https://www.amazon.com/Software-Quality-Assurance-Theory-Implementation/dp/0201709457
+  * https://www.amazon.com/Handbook-Software-Quality-Assurance-Fourth/dp/1596931868
+  * http://www.netobjectives.com/files/books/lasd/role-quality-assurance-lean-agile-software-development.pdf
