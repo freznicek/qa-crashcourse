@@ -42,9 +42,14 @@ The basic goals are.
 
 ## QA mindset
  * analytical thinking
- * critical thinking
+ * critical thinking (question everything)
  * troubleshooting expertise
+ * attention to detail
+ * systematic approach in solving problems
  * at least basic programming knowledge
+ * soft-skills
+   * adaptable to changing priorities
+   * able to communicate well both within and outside the QA team
  * ...
 
 ## Practical session (with triangle test client)
