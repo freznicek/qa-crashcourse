@@ -1,3 +1,5 @@
+![Quality-Assurance](http://inclinition.com/wp-content/uploads/2016/12/Quality-Assurance.jpg)
+
 # QA crash-course
 
 The goals of this course are:
@@ -50,7 +52,7 @@ The basic goals are.
  * soft-skills
    * adaptable to changing priorities
    * able to communicate well both within and outside the QA team
-   * firm and blameless attitude
+   * firm, positive and blameless attitude
  * ...
 
 ## Practical session (with triangle test client)
