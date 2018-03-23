@@ -50,13 +50,16 @@ The basic goals are.
  * soft-skills
    * adaptable to changing priorities
    * able to communicate well both within and outside the QA team
+   * firm and blameless attitude
  * ...
 
 ## Practical session (with triangle test client)
 
-Let's go through very basic Linux QA practical session on command-line `./triangle` application:
+Let's go through very basic Linux QA practical session on laboratory single purpose command-line `./triangle` application which detects whther triangle defined by three arguments - triangle side lengths is valid (== can be constructed).
 
 ### Pre-requisite, compile the application
+
+Let's assume triangle program package is not ready yet and prepared GNU make target `rebuild` only.
 ```
 # you need GNU make, g++ and C++ STL libraries
 $ make rebuild
@@ -65,6 +68,19 @@ g++ -g -std=c++11 /tmp/qa-crashcourse.git/src/triangle/triangle.cpp -o /tmp/qa-c
 cp -f /tmp/qa-crashcourse.git/triangle /tmp/qa-crashcourse.git/triangle.stripped
 strip /tmp/qa-crashcourse.git/triangle.stripped
 ```
+
+### Analyzing the architecture & overall approach
+
+Architecture analysis should always take place at the very beginning, before you dig in into details how the software is working.
+
+We should ask yourself questions like:
+ * What is the application's goal/aim?
+ * Is the application well documented? (for customer, for QA)
+ * Do you find application architecture and the way user interact with the application appropriate?
+ * Are there available QA process documents or I'm supposed to create them?
+   * How I approach testing when no QA process documents available?
+   * How I create defect report?
+   * How I contact developer with a question?
 
 ### Analyzing the documentation
 
