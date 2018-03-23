@@ -19,7 +19,7 @@ The basic goals are.
 * *Before* you ship software to wider audience:
   * assess that software meets the (customer) requirements
   * identify & document/fix bugs or imperfections
-* Control the software quality over supoprted life cycle
+* Control the software quality over supported life cycle
 
 ## QA Testing types
 
