@@ -109,7 +109,7 @@ triangle <a-side-length> <b-side-length> <c-side-length> usage:
 ```
 Ok works, but help functionality *is* valid function and thus should return exit code of 0.
 Moreover application usage does not list the help option (`-h|--help` which calls for an improvement).
-Bug #1.
+[Bug #1](https://github.com/freznicek/qa-crashcourse/issues/3).
 
 #### triangle man/info pages
 
@@ -367,7 +367,7 @@ Executions indicate that third argument is probably kept internally as integer. 
 
 ## How to create software defect
 
-1. Follow the defect tracker template, see [examples here](issue_templates/)
+1. Follow the defect tracker template, [Bug #1 example](https://github.com/freznicek/qa-crashcourse/issues/3), [defect templates](issue_templates/).
 1. Ask yourself what else you need to know if you are tasked to fix the defect.
 
 
