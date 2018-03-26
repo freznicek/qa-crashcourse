@@ -1,4 +1,4 @@
-![Quality-Assurance](http://inclinition.com/wp-content/uploads/2016/12/Quality-Assurance.jpg)
+![Quality-Assurance](pictures/quality_assurance.jpg)
 
 # QA crash-course
 
@@ -33,11 +33,11 @@ The basic goals are.
 ### Why the diagrams look so complex?
 
 #### Testing quadrants
- ![Testing quadrants](http://www.agilebuddha.com/wp-content/uploads/2015/03/Agil-Testing-Quadrants.png)
- ![Testing quadrants and pyramid](http://1.bp.blogspot.com/-_aIqlp3yxj4/VT8KQ0SJdTI/AAAAAAAAAbk/-K932lVzigE/s1600/Agile%2BTest%2BQuadrants_2_with_Pyramid_and_comments.png)
+ ![Testing quadrants](pictures/testing_quadrants.png)
+ ![Testing quadrants and pyramid](pictures/testing_quadrants_pyramid.png)
 
 #### Testing manifesto
- ![Testing manifesto](https://cdn.ttgtmedia.com/rms/onlineImages/devops-testing_manifesto.png)
+ ![Testing manifesto](picture/testing_manifesto.png)
 
 #### It is extremely important to look at software under test from different angles!
 
@@ -363,6 +363,13 @@ $ ./triangle 2 1 2.0
 ✓ root@freznicek-j ~/qa-crashcourse.git/src/triangle
 ```
 Executions indicate that third argument is probably kept internally as integer. Would you be able to find a way how to aprove the other arguments are not the same case?
+
+
+## How to create software defect
+
+1. Follow the defect tracker template, see [examples here](issue_templates/)
+1. Ask yourself what else you need to know if you are tasked to fix the defect.
+
 
 ## Summary
 
