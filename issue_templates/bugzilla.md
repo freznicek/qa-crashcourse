@@ -1,19 +1,19 @@
-# Description of problem:
+**Description of problem**:
 
 
-# Version-Release number of selected component (if applicable):
+**Version-Release number of selected component (if applicable)**:
 
 
-# How reproducible:
+**How reproducible**:
 
 
-# Steps to Reproduce:
+**Steps to Reproduce**:
 
 
-# Actual results:
+**Actual results**:
 
 
-# Expected results:
+**Expected results**:
 
 
-# Additional info:
+**Additional info**:
