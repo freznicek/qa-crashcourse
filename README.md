@@ -371,23 +371,22 @@ Executions indicate that third argument is probably kept internally as integer. 
 1. Ask yourself what else you need to know if you are tasked to fix the defect.
 
 
-## Summary
+## Summary / takeaways
 
 The above lines clearly show the QA mindset in above practical testing experiments.
 
-The highlights:
+### The highlights:
  * figure out different testing scenarios based on desired functionality and experience
  * clearly decide whether the behavior is correct or not based on the facts
  * analyse the behavior and prove/disprove the hypothesis
  * understand programming basics (reading of source code)
 
-Practice yourself:
+### Practice yourself:
  * find other testing scenarios
  * find all above listed issues by making detailed  [triangle application code-review](src/triangle/triangle.cpp).
  * create precisely defined defect reports for other bugs following the [Bug #1 example](https://github.com/freznicek/qa-crashcourse/issues/3)
 
-
-## Outro
+### Remember
 >If you haven't tried it, assume it's broken.
 >
 >Unknown
