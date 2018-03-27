@@ -373,19 +373,20 @@ Executions indicate that third argument is probably kept internally as integer. 
 
 ## Summary
 
-I hope I succeeded to show QA mindset in above practical experiments.
+The above lines clearly show the QA mindset in above practical testing experiments.
 
-Let's now try to find all above listed issues by making detailed  [triangle application code-review](src/triangle/triangle.cpp).
-
-Please take a time to find at least two other test scenarios not listed above
-
-The highlight is on:
+The highlights:
  * figure out different testing scenarios based on desired functionality and experience
  * clearly decide whether the behavior is correct or not based on the facts
  * analyse the behavior and prove/disprove the hypothesis
  * understand programming basics (reading of source code)
- * ...
- 
+
+Practice yourself:
+ * find other testing scenarios
+ * find all above listed issues by making detailed  [triangle application code-review](src/triangle/triangle.cpp).
+ * create precisely defined defect reports for other bugs following the [Bug #1 example](https://github.com/freznicek/qa-crashcourse/issues/3)
+
+
 ## Outro
 >If you haven't tried it, assume it's broken.
 >
