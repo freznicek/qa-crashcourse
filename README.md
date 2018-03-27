@@ -37,7 +37,7 @@ The basic goals are.
  ![Testing quadrants and pyramid](pictures/testing_quadrants_pyramid.png)
 
 #### Testing manifesto
- ![Testing manifesto](picture/testing_manifesto.png)
+ ![Testing manifesto](pictures/testing_manifesto.png)
 
 #### It is extremely important to look at software under test from different angles!
 
